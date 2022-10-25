@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Button = ({aleatorio, color}) => {
+const Button = ({random, color}) => {
   return (
     <div >
-      <button className='button' style={{backgroundColor:color}} onClick={aleatorio}> &#62; </button>
+      <button className='button' style={{backgroundColor:color}} onClick={random}> &#62; </button>
     </div>
   );
 };

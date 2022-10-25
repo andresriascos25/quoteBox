@@ -1,7 +1,6 @@
 import React from 'react';
-import Button from './Button';
 
-const QuoteBox = ({phrase, author, color}) => {
+const QuoteBox = ({phrase, author}) => {
   return (
     <div >
       <div className='container-phrase'>
